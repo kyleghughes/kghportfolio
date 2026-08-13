@@ -25,7 +25,6 @@ const ProjectCard = (props: Project) => {
       <Card className="project-card glass-card">
         <CardContent sx={{ p: { xs: 3, md: 4 } }}>
           <Box className="project-top">
-            xl
             <Typography className="project-index">{props.accent}</Typography>
           </Box>
 
