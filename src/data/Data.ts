@@ -15,69 +15,56 @@ export type Project = {
 
 // #region data
 export const technology: Record<string, Technology> = {
-  Frontend: {
-    title: "Frontend",
-    items: [
-      "HTML / CSS",
-      "JavaScript",
-      "TypeScript",
-      "React 18",
-      "React 19",
-      "React Native",
-      "Next.js",
-      "jQuery",
-      "Vite",
-      "Bootstrap",
-      "Tailwind",
-      "Sass/SCSS",
-    ],
+  languages: {
+    title: "Languages",
+    items: ["JavaScript", "TypeScript", "C#", "Python", "SQL", "HTML", "CSS"],
   },
 
-  JSandReactLibraries: {
-    title: "React & JS Libraries",
+  frontend: {
+    title: "Frontend",
     items: [
+      "React",
+      "React Native",
+      "Next.js",
+      "Vite",
       "React Router",
-      "TanStack Query",
       "Material UI",
       "Redux Toolkit",
-      "Axios",
+      "TanStack Query",
       "React Hook Form",
       "Zod",
       "Framer Motion",
-      "Chart.js",
-      "Mapbox",
-      "Leaflet",
-      "Material UI X",
-      "Base UI",
-      "Day.js",
-      "Moment.js",
+      "Responsive UI",
+      "Mobile-First Development",
     ],
   },
 
-  Backend: {
+  dataVisualisationMapping: {
+    title: "Data Visualisation & Mapping",
+    items: ["Chart.js", "Mapbox", "Leaflet"],
+  },
+
+  backend: {
     title: "Backend",
     items: [
-      "C#",
       ".NET",
       "ASP.NET Core",
-      "Python",
-      "FastAPI",
-      "Node.js",
       "Entity Framework Core",
+      "Node.js",
+      "FastAPI",
       "Pydantic",
-      "Supabase",
-      "Postman",
+      "REST APIs",
     ],
   },
 
-  Data: {
-    title: "Data & Databases",
+  databases: {
+    title: "Databases",
     items: [
-      "SQL",
       "PostgreSQL",
-      "MySQL",
       "Microsoft SQL Server",
+      "MySQL",
       "MongoDB",
+      "SQL",
       "NoSQL",
       "Database Design",
       "Data Modelling",
@@ -85,20 +72,12 @@ export const technology: Record<string, Technology> = {
     ],
   },
 
-  Cloud: {
+  cloudDevOps: {
     title: "Cloud & DevOps",
-    items: [
-      "AWS",
-      "Azure",
-      "Azure DevOps",
-      "Vercel",
-      "CI/CD",
-      "Docker",
-      "Auth0",
-    ],
+    items: ["AWS", "Azure", "Vercel", "Docker", "CI/CD", "Auth0", "YAML"],
   },
 
-  Testing: {
+  testing: {
     title: "Testing",
     items: [
       "Jest",
@@ -107,7 +86,6 @@ export const technology: Record<string, Technology> = {
       "Playwright",
       "xUnit",
       "NUnit",
-      "Pytest",
       "Unit Testing",
       "Integration Testing",
       "End-to-End Testing",
@@ -115,46 +93,34 @@ export const technology: Record<string, Technology> = {
     ],
   },
 
-  ArchitectureAndEngineering: {
+  architectureEngineering: {
     title: "Architecture & Engineering",
     items: [
       "Microservices",
+      "Microfrontend Architecture",
       "Monorepos",
+      "Component Architecture",
       "Object-Oriented Programming",
       "Functional Programming",
-      "REST API Design",
-      "Component Architecture",
       "Design Patterns",
       "SOLID Principles",
       "Clean Architecture",
     ],
   },
 
-  Collaboration: {
-    title: "Collaboration & Workflow",
-    items: [
-      "Git",
-      "GitHub",
-      "GitLab",
-      "Bitbucket",
-      "Pull Requests",
-      "Code Review",
-      "JIRA",
-      "Agile / Scrum",
-    ],
+  developmentTools: {
+    title: "Development Tools",
+    items: ["Git", "GitHub", "GitLab", "Bitbucket", "JIRA", "Bash", "Postman"],
   },
 
-  AI: {
-    title: "AI Tooling",
+  aiAssistedDevelopment: {
+    title: "AI-Assisted Development",
     items: [
-      "ChatGPT",
       "GitHub Copilot",
       "Claude",
+      "ChatGPT",
       "AI-Assisted Development",
       "Prompt Engineering",
-      "AI Code Generation",
-      "AI Code Review",
-      "AI-Powered Developer Workflows",
     ],
   },
 };
