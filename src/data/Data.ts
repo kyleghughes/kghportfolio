@@ -190,25 +190,15 @@ export const personalProjects: Project[] = [
 ];
 
 export const skills: string[] = [
-  "Adaptability",
-  "Analytical Thinking",
-  "Application of Software Methodologies",
-  "Attention to Detail",
-  "Clear Verbal & Written Communication",
-  "Continuous Improvement",
-  "Creative Thinking",
-  "Critical Thinking",
-  "Debugging & Troubleshooting",
-  "Fast Learning",
-  "Knowledge Sharing",
-  "Logical Thinking",
-  "Ownership & Accountability",
-  "Peer Collaboration",
-  "Prioritisation",
   "Problem Solving",
   "Requirements Analysis",
+  "Debugging & Troubleshooting",
+  "Analytical Thinking",
   "Technical Documentation",
-  "Teamwork",
-  "Translating Requirements into Technical Solutions",
+  "Communication",
+  "Ownership & Accountability",
+  "Prioritisation",
+  "Continuous Improvement",
+  "Adaptability",
 ];
 // #endregion
